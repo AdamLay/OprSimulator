@@ -30,4 +30,4 @@ for (int i = 1; i < 1_000; i++)
 	Console.WriteLine();
 }
 
-antage Console.WriteLine("Finished...");
+Console.WriteLine("Finished...");
