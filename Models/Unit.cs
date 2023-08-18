@@ -27,4 +27,8 @@ public class Unit
 		Wounds = Wounds % Tough;
 	}
 
+	public Unit Clone()
+	{
+		return (Unit)MemberwiseClone();
+	}
 }
